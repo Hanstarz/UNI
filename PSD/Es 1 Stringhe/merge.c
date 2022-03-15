@@ -48,6 +48,7 @@ char *Read_string(int buff) {
 }
 
 char * merge(char * s1, char * s2){
+    
     int L_s1 =  strlen(s1);
     int L_s2 =  strlen(s2);
     char * merged_string = malloc(L_s1+L_s2);
